@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <title>SpaceX</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+        
+
+        <!-- eigen CSS-->
+        <link rel="stylesheet" href="css/Challenge1_display.css"/>
+        
+        <!-- JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript" src="javascript/Challenge1_display.js"></script>
+        
+        
+        <!-- importeren van lettertypes-->   
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Chakra+Petch:500&display=swap');
+            @import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
+           @import url('https://fonts.googleapis.com/css?family=Chakra+Petch:500&display=swap');
+        </style>
+
+    </head>
+    <body>
+        <header>
+            <div class="ufo"><img src="afbeeldingen/ufo.png" alt=""/></div>
+            <h1>SpaceX</h1>
+        </header>
+        
+
+        <div class="grid-container">
+             <img src="afbeeldingen/planeten_voortgangMars.png" alt="" class="afbeeldingVoortgang"/>
+               
+             <p class="introductietekst">Het ruimteschip is onderweg naar Mars. Hieronder staan de gegevens met betrekking tot het brandstofverbruik, de afgelegde afstand en de snelheid van dit ruitmeschip. Uit deze gegevens kan opgemaakt worden of er nog genoeg brandstof aanwezig is, hoe snel het ruimteschip door de ruimte beweeegt en hoeveel kilometer er nog moet worden afgelegd tot Mars wordt bereikt.</p>
+                
+            <div class="snelheid gegevens">
+                <h2>Snelheid</h2>
+                <div id="snelheidsmeter"></div>
+            </div>
+                
+            <div class="brandstof gegevens">
+                <h2>Brandstof</h2>
+                <div id="brandstofverbruik"></div>
+            </div>
+                
+            <div class="afstand-tijd gegevens">
+                <h2>Afstand tegen tijd grafiek</h2>
+                 <div id="areagrafiek"></div>
+                <br />
+                <p>Het ruimteschip heeft nu <u id="afstand"></u> kilometer afgelegt. 
+                <br /><br />Dit betekend dat er nog <u id="totaleAfstand"></u> kilometer afgelegd moet worden om Mars te bereiken.</p>
+            </div>
+                
+            <div class="planeet1">
+            </div>
+                
+            <div class="planeet2">
+            </div>
+                
+            <div class="planeet3">
+            </div>
+                
+            <div class="planeet4">
+            </div>
+        </div>
+
+        <footer>
+            <h3>SpaceX - Elon Musk</h3>
+        </footer>
+        
+        
+    </body>
+</html>

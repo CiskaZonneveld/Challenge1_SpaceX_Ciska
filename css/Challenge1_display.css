@@ -6,8 +6,6 @@
 
 /*****************************************************Mobiele versie/ kleinste versie***********************************************/
 body{
-/*    background-image: url(afbeeldingen/"achtergrond.jpg");*/
-    background-image: url(achtergrond.jpg);
     background-image: url(../afbeeldingen/achtergrond.jpg);
     
     font-family: 'Share Tech Mono', monospace;
@@ -183,7 +181,7 @@ footer{
         column-count: 2;
         margin-top: 40px;
        
-        background-image: url(afbeeldingen/planeet_rood.png);
+        background-image: url(../afbeeldingen/planeet_rood.png);
         background-repeat: no-repeat;
         background-position: bottom right;
         margin-bottom: 10%;
@@ -215,7 +213,7 @@ footer{
     }
     header{
         margin-top: 3%;
-        background-image: url(afbeeldingen/planeet_witblauw.png);
+        background-image: url(../afbeeldingen/planeet_witblauw.png);
         background-repeat: no-repeat;
         z-index: -1;
         background-position: right;
@@ -251,7 +249,7 @@ footer{
         column-count: 2;
         margin-top: 20px;
         
-        background-image: url(afbeeldingen/planeet_rood.png);
+        background-image: url(../afbeeldingen/planeet_rood.png);
         background-repeat: no-repeat;
         background-position: bottom center;
         margin-bottom: 10%;
